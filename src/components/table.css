@@ -1,0 +1,71 @@
+.pagination {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.prev {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border-radius: 6px;
+}
+
+.prev:hover {
+    background-color: #000;
+    color: #f2df12;
+}
+
+.next {
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #333;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border-radius: 6px;
+}
+
+.next:hover {
+    color: #111;
+    border: 1px solid #111;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+
+.disabled {
+    background-color: #c8c6c6;
+    color: #333;
+}
+
+.disabled:hover {
+    background-color: #c8c6c6;
+    color: #333;
+}
+
+.user-table {
+    border: 1px #dad9d9 solid;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.user-table thead {
+    padding: 1rem 0;
+    background-color: aliceblue;
+}
+
+
+/* Utility classes */
+.rounded {
+    border-radius: 50%;
+}
+.p-1 {
+    padding: .4rem;
+}
