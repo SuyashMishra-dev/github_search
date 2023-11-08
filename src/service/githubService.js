@@ -5,7 +5,9 @@ const githubService = axios.create({
 });
 
 
-githubService.defaults.headers.common['Authorization'] = `Bearer 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`;
+githubService.defaults.headers.common[
+  "Authorization"
+] = `Bearer ${process.env.REACT_APP_GITHUB_ACCESS_TOKEN}`;
 
 export const searchUsers = async (query, pageNum) => {
   try {
