@@ -5,7 +5,7 @@ const githubService = axios.create({
 });
 
 
-githubService.defaults.headers.common['Authorization'] = `Bearer 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`;
+githubService.defaults.headers.common['Authorization'] = `Bearer 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`;
 
 export const searchUsers = async (query, pageNum) => {
   try {
